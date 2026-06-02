@@ -1382,3 +1382,38 @@ h3 {
     display: block;
   }
 }
+
+.seo-keyword-section {
+  background: rgba(255, 255, 255, 0.52);
+}
+
+.seo-keyword-panel {
+  padding: 34px;
+  border: 1px solid var(--line);
+  border-radius: 34px;
+  background: linear-gradient(135deg, #fff, rgba(243, 235, 229, 0.78));
+  box-shadow: 0 12px 36px rgba(70, 48, 42, 0.07);
+}
+
+.keyword-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.keyword-chip {
+  display: inline-flex;
+  padding: 9px 13px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--blue);
+  background: rgba(255, 255, 255, 0.82);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.seo-disclaimer {
+  margin: 22px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+}
