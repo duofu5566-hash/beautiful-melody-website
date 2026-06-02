@@ -29,7 +29,7 @@
 7. 项目设置：
    - Framework preset: `None`
    - Build command: 留空
-   - Build output directory: `/`
+   - Build output directory: `public`
 8. 发布后，Cloudflare 会给一个临时域名，例如 `beautiful-melody.pages.dev`。
 
 官方参考：
@@ -93,4 +93,3 @@
 2. Cloudflare Pages 项目名
 3. Cloudflare 里是否已经能看到 `bfmedi.com`
 4. 是否需要把 `www.bfmedi.com` 自动跳转到 `bfmedi.com`
-

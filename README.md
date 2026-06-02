@@ -11,10 +11,13 @@ This is a lightweight English brand website for a professional medical aesthetic
 - `_redirects` - Cloudflare Pages fallback routing
 - `robots.txt` - Search engine crawling baseline
 - `cloudflare-pages-deploy.md` - Chinese deployment checklist
+- `public/` - Cloudflare Pages publish directory
 
 ## Preview
 
 Open `index.html` directly in a browser, or run a simple local server from this folder.
+
+For Cloudflare Pages, use `public` as the build output directory.
 
 ## Customize
 
