@@ -1361,6 +1361,18 @@ h3 {
   font-weight: 800;
 }
 
+[dir="rtl"] .nav-links,
+[dir="rtl"] .hero-actions {
+  direction: rtl;
+}
+
+[dir="rtl"] .product-card a::after,
+[dir="rtl"] .market-card a::after {
+  margin-right: 8px;
+  margin-left: 0;
+  content: "<";
+}
+
 @media (max-width: 920px) {
   .market-grid {
     grid-template-columns: 1fr;
