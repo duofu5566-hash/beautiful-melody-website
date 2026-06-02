@@ -30,3 +30,7 @@ Replace these placeholders before publishing:
 - Product categories and documentation details
 
 For regulated products, confirm destination-market requirements before publishing product claims, indications, prices, or checkout flows.
+
+## Country domain reminder
+
+When expanding more country websites, remind the owner to buy suitable first-level or country-level domains. Current priority market pages: Vietnam, Thailand, Malaysia, United States, United Kingdom, Dubai/UAE, Mexico, Australia, and Spain. Suggested domains to review later include bfmedi.vn, bfmedi.my, bfmedi.mx, bfmedi.com.au or bfmedi.au, bfmedi.es, plus UAE/Dubai and UK/US domain strategy.
