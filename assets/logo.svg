@@ -1,0 +1,24 @@
+<svg width="220" height="64" viewBox="0 0 220 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Beautiful Melody logo</title>
+  <desc id="desc">A refined female facial contour mark with Beautiful Melody wordmark.</desc>
+  <rect width="220" height="64" rx="18" fill="none"/>
+  <g transform="translate(8 5)">
+    <rect x="0" y="0" width="54" height="54" rx="18" fill="url(#paint0_linear)"/>
+    <path d="M31.6 9.7C24.7 10.6 19.2 15.3 17.1 21.7C15.5 26.4 16.4 31.3 19.4 35.1C21.4 37.7 23.5 39.2 25.8 40.6C27.7 41.7 29.8 43.2 31.1 46.2" stroke="#FDF8F3" stroke-width="2.3" stroke-linecap="round"/>
+    <path d="M32.2 12.5C37.2 15.1 39.9 19.7 39.7 24.5C39.5 29.9 36 34.1 31.9 36.8C29.1 38.7 27.4 40.4 26.5 43" stroke="#E8C7B7" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M33.7 20.1C31.3 21.3 29.7 23.5 29.6 26.2C29.5 29.3 31.4 31.7 34.4 32.8" stroke="#FDF8F3" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M38.2 28.9C40.7 29.4 42.8 31.1 43.7 33.5" stroke="#E8C7B7" stroke-width="1.8" stroke-linecap="round"/>
+    <circle cx="34.5" cy="25.2" r="1.25" fill="#FDF8F3"/>
+  </g>
+  <g transform="translate(76 16)">
+    <text x="0" y="17" fill="#1D3D5C" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="-0.7">Beautiful Melody</text>
+    <text x="1" y="36" fill="#9B6A5F" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="800" letter-spacing="2.2">MEDICAL AESTHETICS</text>
+  </g>
+  <defs>
+    <linearGradient id="paint0_linear" x1="8" y1="6" x2="49" y2="51" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D3D5C"/>
+      <stop offset="0.56" stop-color="#7A514B"/>
+      <stop offset="1" stop-color="#E8C7B7"/>
+    </linearGradient>
+  </defs>
+</svg>

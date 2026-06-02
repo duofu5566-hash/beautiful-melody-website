@@ -85,6 +85,16 @@ svg {
   letter-spacing: 0.04em;
 }
 
+.logo-brand img {
+  width: 220px;
+  height: auto;
+}
+
+.footer-brand.logo-brand img {
+  filter: brightness(0) invert(1);
+  opacity: 0.96;
+}
+
 .nav-links {
   display: flex;
   align-items: center;
@@ -931,6 +941,10 @@ h3 {
 @media (max-width: 620px) {
   .container {
     width: min(100% - 28px, 1140px);
+  }
+
+  .logo-brand img {
+    width: 176px;
   }
 
   .hero-actions,
