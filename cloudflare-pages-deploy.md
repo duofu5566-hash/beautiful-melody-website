@@ -99,7 +99,7 @@ Cloudflare 会从 `wrangler.toml` 读取 `public` 目录。
 - 品牌名：`Beautiful Melody`
 - 域名：`bfmedi.com`
 - 邮箱：`duofu5566@gmail.com`
-- WhatsApp：`+852 5573 4489`
+- WhatsApp：`+66 929504819`
 - 真实产品分类
 - 公司介绍
 - 证书和资质说明

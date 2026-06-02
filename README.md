@@ -26,7 +26,7 @@ Replace these placeholders before publishing:
 - Brand name: `Beautiful Melody`
 - Domain: `bfmedi.com`
 - Email: `duofu5566@gmail.com`
-- WhatsApp: `+852 5573 4489`
+- WhatsApp: `+66 929504819`
 - Product categories and documentation details
 
 For regulated products, confirm destination-market requirements before publishing product claims, indications, prices, or checkout flows.
