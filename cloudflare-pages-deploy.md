@@ -1,6 +1,18 @@
 # Beautiful Melody / bfmedi.com Cloudflare Pages 上线清单
 
-这个网站适合用 Cloudflare Pages 部署。它是静态英文品牌官网，不需要先购买传统服务器。
+这个网站适合用 Cloudflare 的静态托管部署。它是静态英文品牌官网，不需要先购买传统服务器。
+
+当前项目已经加入 `wrangler.toml`。如果 Cloudflare 新版界面把项目建成 Workers，也可以正常部署，配置如下：
+
+```toml
+name = "beautiful-melody-website"
+compatibility_date = "2026-06-02"
+workers_dev = true
+
+[assets]
+directory = "./public"
+not_found_handling = "single-page-application"
+```
 
 ## 推荐购买
 
@@ -31,6 +43,14 @@
    - Build command: 留空
    - Build output directory: `public`
 8. 发布后，Cloudflare 会给一个临时域名，例如 `beautiful-melody.pages.dev`。
+
+如果页面显示的是 Workers 的构建设置，则保持：
+
+- Build command: 留空
+- Deploy command: `npx wrangler deploy`
+- Path: `/`
+
+Cloudflare 会从 `wrangler.toml` 读取 `public` 目录。
 
 官方参考：
 

@@ -12,12 +12,13 @@ This is a lightweight English brand website for a professional medical aesthetic
 - `robots.txt` - Search engine crawling baseline
 - `cloudflare-pages-deploy.md` - Chinese deployment checklist
 - `public/` - Cloudflare Pages publish directory
+- `wrangler.toml` - Cloudflare Workers static assets configuration
 
 ## Preview
 
 Open `index.html` directly in a browser, or run a simple local server from this folder.
 
-For Cloudflare Pages, use `public` as the build output directory.
+For the current Cloudflare Workers & Pages UI, the `wrangler.toml` file points Cloudflare to the `public` directory.
 
 ## Customize
 
