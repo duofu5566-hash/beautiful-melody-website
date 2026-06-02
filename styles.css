@@ -785,6 +785,30 @@ h3 {
   resize: vertical;
 }
 
+.whatsapp-card {
+  align-content: center;
+}
+
+.whatsapp-card h3 {
+  margin: 8px 0 6px;
+  color: var(--blue);
+  font-size: 30px;
+}
+
+.whatsapp-card p {
+  color: var(--muted);
+}
+
+.whatsapp-card .button {
+  width: fit-content;
+}
+
+.whatsapp-number {
+  margin: 2px 0 0;
+  font-size: 14px;
+  font-weight: 800;
+}
+
 .site-footer {
   padding: 44px 0;
   background: #0e2237;
