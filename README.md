@@ -8,7 +8,6 @@ This is a lightweight English brand website for a professional medical aesthetic
 - `styles.css` - Visual design and responsive layout
 - `script.js` - Mobile menu interaction
 - `_headers` - Cloudflare Pages security headers
-- `_redirects` - Cloudflare Pages fallback routing
 - `robots.txt` - Search engine crawling baseline
 - `cloudflare-pages-deploy.md` - Chinese deployment checklist
 - `public/` - Cloudflare Pages publish directory
