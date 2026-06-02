@@ -755,6 +755,92 @@ h3 {
   background: rgba(255, 255, 255, 0.78);
 }
 
+.manufacturer-section {
+  background:
+    radial-gradient(circle at 12% 8%, rgba(231, 201, 192, 0.5), rgba(255, 255, 255, 0) 30%),
+    #fff;
+}
+
+.credential-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.credential-card {
+  min-height: 270px;
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  background: var(--surface);
+  box-shadow: 0 12px 36px rgba(70, 48, 42, 0.07);
+}
+
+.credential-card span {
+  display: inline-grid;
+  width: 42px;
+  height: 42px;
+  margin-bottom: 34px;
+  place-items: center;
+  border-radius: 14px;
+  color: var(--accent-dark);
+  background: var(--surface-soft);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.credential-card h3 {
+  color: var(--blue);
+}
+
+.credential-card p {
+  color: var(--muted);
+}
+
+.document-panel {
+  display: grid;
+  grid-template-columns: 0.65fr 1.35fr;
+  gap: 34px;
+  margin-top: 24px;
+  padding: 34px;
+  border-radius: 32px;
+  color: #fff;
+  background: linear-gradient(135deg, var(--blue), #0e2237);
+  box-shadow: var(--shadow);
+}
+
+.document-panel h3,
+.document-panel .eyebrow {
+  color: #fff;
+}
+
+.document-panel ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.document-panel li {
+  position: relative;
+  padding-left: 22px;
+  color: rgba(255, 255, 255, 0.78);
+  font-weight: 700;
+}
+
+.document-panel li::before {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 8px;
+  height: 8px;
+  content: "";
+  border-radius: 50%;
+  background: var(--accent-soft);
+}
+
 .timeline {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -973,6 +1059,7 @@ h3 {
   .product-grid,
   .news-grid,
   .product-detail-grid,
+  .credential-grid,
   .feature-list,
   .timeline,
   .logo-grid {
@@ -1004,6 +1091,10 @@ h3 {
   .wide-image-card img {
     height: 340px;
   }
+
+  .document-panel {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 620px) {
@@ -1031,6 +1122,7 @@ h3 {
   .product-grid,
   .news-grid,
   .product-detail-grid,
+  .credential-grid,
   .feature-list,
   .timeline,
   .logo-grid {
@@ -1060,6 +1152,14 @@ h3 {
 
   .wide-image-card img {
     height: 260px;
+  }
+
+  .document-panel {
+    padding: 26px;
+  }
+
+  .document-panel ul {
+    grid-template-columns: 1fr;
   }
 
   .hero-card {
