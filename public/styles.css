@@ -536,6 +536,73 @@ h3 {
   color: var(--muted);
 }
 
+.news-preview {
+  background: linear-gradient(180deg, var(--bg), #fff);
+}
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.news-card,
+.news-feature {
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  background: var(--surface);
+  box-shadow: 0 12px 36px rgba(70, 48, 42, 0.07);
+}
+
+.news-card {
+  display: flex;
+  min-height: 280px;
+  flex-direction: column;
+  padding: 28px;
+}
+
+.news-card span,
+.news-meta {
+  color: var(--accent-dark);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.news-card h3,
+.news-feature h3 {
+  margin-top: 16px;
+  color: var(--blue);
+}
+
+.news-card p,
+.news-feature p {
+  color: var(--muted);
+}
+
+.news-card a,
+.news-feature a {
+  display: inline-flex;
+  width: fit-content;
+  margin-top: auto;
+  color: var(--accent-dark);
+  font-weight: 800;
+}
+
+.news-button {
+  margin-top: 28px;
+}
+
+.news-list {
+  display: grid;
+  gap: 20px;
+}
+
+.news-feature {
+  padding: 32px;
+}
+
 .info-card {
   padding: 32px;
   border: 1px solid var(--line);
@@ -904,6 +971,7 @@ h3 {
 
   .card-grid.three,
   .product-grid,
+  .news-grid,
   .product-detail-grid,
   .feature-list,
   .timeline,
@@ -961,6 +1029,7 @@ h3 {
 
   .card-grid.three,
   .product-grid,
+  .news-grid,
   .product-detail-grid,
   .feature-list,
   .timeline,
