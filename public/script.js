@@ -12,3 +12,12 @@ navLinks?.addEventListener("click", (event) => {
     navToggle?.setAttribute("aria-expanded", "false");
   }
 });
+
+document.querySelectorAll(".language-select").forEach((select) => {
+  select.addEventListener("change", (event) => {
+    const target = event.target.value;
+    if (target) {
+      window.location.href = target;
+    }
+  });
+});
