@@ -18,7 +18,7 @@
 4. 把 `analytics.js` 和 `public/analytics.js` 里的：
 
 ```js
-const GA_MEASUREMENT_ID = "G-REPLACE-WITH-YOUR-ID";
+const GA_MEASUREMENT_ID = "G-RSWZGCXPY1";
 ```
 
 替换成你的真实 ID。
